@@ -1,1 +1,0 @@
-import{_ as e}from"./index.9f38134f.js";import{o,e as s}from"./vendor.0e79d1cc.js";const n={},r={class:"login"};function t(c,a,_,d,i,f){return o(),s("div",r,"login")}var m=e(n,[["render",t]]);export{m as default};

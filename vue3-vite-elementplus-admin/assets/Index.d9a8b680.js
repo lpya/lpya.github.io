@@ -1,1 +1,0 @@
-import{_ as e}from"./index.9f38134f.js";import{o as r,e as c}from"./vendor.0e79d1cc.js";const n={};function o(t,s){return r(),c("div",null,"articlelistindex")}var f=e(n,[["render",o]]);export{f as default};
