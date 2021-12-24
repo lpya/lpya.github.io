@@ -1,0 +1,1 @@
+import{_ as e}from"./index.7d2621c9.js";import{o as r,e as t}from"./vendor.155a6faf.js";const c={};function n(o,a){return r(),t("div",null,"articletypetype1")}var _=e(c,[["render",n]]);export{_ as default};
