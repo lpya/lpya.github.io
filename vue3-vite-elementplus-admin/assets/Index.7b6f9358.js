@@ -1,1 +1,0 @@
-import{_ as o}from"./index.7d2621c9.js";import{r,o as t,e as s,f as a,p as c}from"./vendor.155a6faf.js";const n={},d={class:"aritcl"},_=c(" 3333333333dddasdfasdf ");function f(i,m){const e=r("router-view");return t(),s("div",d,[_,a(e)])}var v=o(n,[["render",f]]);export{v as default};
