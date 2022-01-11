@@ -1,1 +1,0 @@
-import{_ as e}from"./index.93e8c289.js";import{o as n,e as _}from"./vendor.5583d224.js";const r={},o={class:"menu1-1"};function s(t,c){return n(),_("div",o,"menu1-1")}var i=e(r,[["render",s]]);export{i as default};
