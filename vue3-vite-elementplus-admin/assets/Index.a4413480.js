@@ -1,0 +1,1 @@
+import{_ as e}from"./index.7da6167b.js";import{o as t,i as s,y as n}from"./vendor.08be0fb9.js";const _={},a={class:"attachment"},o=n("div",{class:"content"},"attachment",-1),c=[o];function r(d,i){return t(),s("div",a,c)}var m=e(_,[["render",r]]);export{m as default};
