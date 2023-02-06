@@ -1,0 +1,1 @@
+import{ah as e,n as a,v as s,x as t,U as _,J as o,ap as c}from"./index.1b43b3f6.js";const n={class:"theme"},r={class:"container"},d=a({setup(p){return(i,l)=>(s(),t("div",n,[_("div",r,[o(c)])]))}});var m=e(d,[["__scopeId","data-v-af1450ce"]]);export{m as default};
