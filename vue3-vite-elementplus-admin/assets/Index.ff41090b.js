@@ -1,0 +1,1 @@
+import{ai as e,o as t,h as a,m as s}from"./index.15142237.js";const _={},c={class:"attachment"},n=s("div",{class:"content"},"attachment",-1),o=[n];function r(d,i){return t(),a("div",c,o)}var h=e(_,[["render",r]]);export{h as default};

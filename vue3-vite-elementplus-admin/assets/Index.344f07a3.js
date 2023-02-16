@@ -1,1 +1,0 @@
-import{ah as e,v as t,x as a,U as s}from"./index.1b43b3f6.js";const _={},c={class:"attachment"},n=s("div",{class:"content"},"attachment",-1),o=[n];function r(d,i){return t(),a("div",c,o)}var h=e(_,[["render",r]]);export{h as default};
