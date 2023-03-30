@@ -1,0 +1,1 @@
+import{d as t,c as _,o as c,p as o,i as s,a}from"./index-c6b3677b.js";import{_ as d}from"./_plugin-vue_export-helper-c27b6911.js";const n=e=>(o("data-v-902cdf20"),e=e(),s(),e),p={class:"index"},i=n(()=>a("div",{id:"canvas"},null,-1)),r=[i],f=t({__name:"1-rect",setup(e){return(l,m)=>(c(),_("div",p,r))}});const h=d(f,[["__scopeId","data-v-902cdf20"]]);export{h as default};
