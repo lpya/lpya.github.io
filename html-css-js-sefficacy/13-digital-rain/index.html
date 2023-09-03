@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数字雨</title>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      background: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+</body>
+<script>
+  const canvas = document.getElementById("canvas")
+  const ctx = canvas.getContext("2d")
+  const fontSize = 20
+  let rows, columns, arrs
+
+  // 自适应
+  function resizeCanvas() {
+    const width = window.innerWidth || document.documentElement.clientWidth
+    const height = window.innerHeight || document.documentElement.clientHeight
+    canvas.width = width
+    canvas.height = height
+    rows = Math.ceil(height / fontSize)
+    columns = Math.ceil(width / fontSize)
+    arrs = new Array(columns).fill(0)
+  }
+
+  // 动画
+  function animation() {
+    ctx.fillStyle = "rgba(0,0,0,0.1)"
+    ctx.fillRect(0, 0, canvas.width, canvas.height)
+    for (let i = 0; i < columns; i++) {
+      ctx.fillStyle = "green"
+      ctx.font = `${fontSize}px 宋体`
+      ctx.fillText(Math.floor(Math.random() * 10), fontSize * i, arrs[i] * fontSize)
+      arrs[i]++
+      if (arrs[i] > rows || Math.random() > 0.98) {
+        arrs[i] = 0
+      }
+    }
+    setTimeout(() => {
+      animation()
+    }, 20)
+  }
+  
+  // 初始化
+  function init() {
+    resizeCanvas()
+    window.addEventListener("resize", resizeCanvas)
+    animation()
+  }
+  init()
+</script>
+
+</html>
